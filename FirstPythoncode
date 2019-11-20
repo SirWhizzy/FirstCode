@@ -1,0 +1,9 @@
+  x = int(input("Enter a number between 1 and 1000: "))
+  print(x)
+  if 1 < x < 1000:
+    if x % 2 == 0:
+      print("The number you entered is even")
+    elif x % 2 != 0:
+      print("The number you entered is odd")
+  else:
+    print("You entered an invalid number")
